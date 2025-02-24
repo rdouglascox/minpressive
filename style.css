@@ -1,0 +1,37 @@
+body {
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    line-height: 130%; 
+}
+
+h1,h2,h3,blockquote,li,p, a {
+    background-color: transparent;
+    color: rgba(0, 0, 0, 0.05);
+    transition: background-color 1.5s, color 1.5s;
+}
+
+.highlightable.highlight a {
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(0, 0, 0, 1);
+    transition: background-color 0.5s, color 0.5s, font-size 0.5s;
+}
+
+.highlightable.highlight {
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(0, 0, 0, 1);
+    transition: background-color 0.5s, color 0.5s, font-size 0.5s;
+}
+
+#bibliography {
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(0, 0, 0, 1);
+    transition: background-color 0.5s, color 0.5s, font-size 0.5s;
+}
+
+
+
+
+
+
+
+
