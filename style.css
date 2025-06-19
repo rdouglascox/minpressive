@@ -4,7 +4,7 @@ body {
     line-height: 130%; 
 }
 
-h1,h2,h3,blockquote,li,p, a {
+h1,h2,h3,blockquote,li,p,a,hr,iframe,table {
     background-color: transparent;
     color: rgba(0, 0, 0, 0.05);
     transition: background-color 1.5s, color 1.5s;

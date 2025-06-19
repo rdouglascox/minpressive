@@ -6,7 +6,9 @@ const visibleElements = elements.filter((element) => {
     return element.offsetWidth > 0 && element.offsetHeight > 0 && element.style.display!== 'none' 
         && (element.tagName.toLowerCase() === 'h1' || element.tagName.toLowerCase() === 'h2' 
             || element.tagName.toLowerCase() === 'h3' || element.tagName.toLowerCase() === 'p' 
-            || element.tagName.toLowerCase() === 'blockquote' || element.tagName.toLowerCase() === 'li');
+            || element.tagName.toLowerCase() === 'blockquote' || element.tagName.toLowerCase() === 'li'
+            || element.tagName.toLowerCase() === 'table' || element.tagName.toLowerCase() === 'iframe' || 
+            element.tagName.toLowerCase() === 'hr');
 });
 
 // Add the highlightable class to all visible elements
